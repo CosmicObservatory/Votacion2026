@@ -5,6 +5,7 @@ ROOT = list(Path(__file__).parents)[1]
 
 FOLDER_DATA = ROOT / "data"
 FOLDER_RAW = FOLDER_DATA / "raw"
+
 # Censos 
 CENSO_DATA = FOLDER_DATA / "Censos"
 censo_url = URL("https://ine.mx/wp-content/uploads/")

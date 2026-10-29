@@ -17,6 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "bs4>=0.0.2",
+    "cchardet>=2.4.0",
     "dash>=4.4.1",
     "geopandas>=1.2.0",
     "ipykernel>=7.4.0",

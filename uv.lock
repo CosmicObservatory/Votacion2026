@@ -69,6 +69,28 @@ wheels = [
 ]
 
 [[package]]
+name = "cchardet"
+version = "2.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ae/f2/4db3f22a942ab99fbf4860bfc8594ac753ff0601e84d82b20f670e55280e/cchardet-2.4.0.tar.gz", hash = "sha256:7b062e7e92e5ab1a00aaf5c164d5f056daae648ba1f144082baf5b4c229b794e", size = 249908, upload-time = "2026-10-11T01:13:41.173Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aa/7f/34083f3aeef80a1a5b86d6eb5edebeb7b132c226af0dc1f8b1ce8c5fae82/cchardet-2.4.0-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:942a0f845136d1532f137bf6d66f75fb79aaf4bdc82679580c4d4835d32edfe5", size = 188941, upload-time = "2026-10-11T01:13:00.752Z" },
+    { url = "https://files.pythonhosted.org/packages/c3/eb/c9cceeb171a151b20d592a74a7bc0a91af7bc0830f64b74fb4019aaf9d25/cchardet-2.4.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:d0e230cfdb8369b9127ae5978a8669906e561ad6e14a90bf1f8dd41c0ca58883", size = 192212, upload-time = "2026-10-11T01:13:02.334Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/b2/3a59e471cb4368b556d7a74fdd6906fac242875f528d96d273f1a897953f/cchardet-2.4.0-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:1619a006f3adc77d13b74d507c1b232fadbfe22025f227b7b32af1cd140c3b8a", size = 584825, upload-time = "2026-10-11T01:13:03.846Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/d5/78ee7a22e23b4f1c1cbe78b383f39c37d7a57c4110e7318dea39ac833a02/cchardet-2.4.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4616a207be7c6662c1f7ab180c72e3189e611fb05ca7da37a7f1d660415c3e26", size = 585668, upload-time = "2026-10-11T01:13:05.438Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/19/86f22d8a2e18685a960f17a914f82df3c6e4382b4675d2136a9885640a93/cchardet-2.4.0-cp314-cp314-win32.whl", hash = "sha256:651f9f1abe05a1dae71e6ab063387f2a09b2bb7b03bd9b084fc50f9cb3b37cb0", size = 347850, upload-time = "2026-10-11T01:13:06.816Z" },
+    { url = "https://files.pythonhosted.org/packages/77/4c/899f4cc3801426cb92c3c76cc82b92f6cce62841e2b6a7c37f64e7d84049/cchardet-2.4.0-cp314-cp314-win_amd64.whl", hash = "sha256:d746652ac31a8a9ba6e5b754764da327b347b9047f62b3dc4fd88c5cc035f873", size = 350209, upload-time = "2026-10-11T01:13:08.133Z" },
+    { url = "https://files.pythonhosted.org/packages/c9/34/0dd7f59a043476b043563613a40d57c43e926dd1f0127050140bc1d5e284/cchardet-2.4.0-cp314-cp314-win_arm64.whl", hash = "sha256:7864552b8d7daf0f8f59601fdbddea989b9f621cca96b4fb245f9627c1439384", size = 525271, upload-time = "2026-10-11T01:13:09.538Z" },
+    { url = "https://files.pythonhosted.org/packages/12/b2/8e939c2cf80035fbf0b31c4bd29e89e58dedad27f5f4b79eb21745568bd0/cchardet-2.4.0-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:29a8de2219037cb7ebe1f2a23f8aa1b82525b65ceef1936eb9d99563fffcb5bc", size = 192195, upload-time = "2026-10-11T01:13:10.834Z" },
+    { url = "https://files.pythonhosted.org/packages/8a/0c/1c1d4d4d50670f998eabc61957f4f7cf5f1a309e2af3e1374806e2dfe2d0/cchardet-2.4.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:3f28c73aecdccf97ecf5816162ef4988a83f1ad6938e422fde902687f8b7a315", size = 196056, upload-time = "2026-10-11T01:13:12.043Z" },
+    { url = "https://files.pythonhosted.org/packages/f9/69/477b56db95a209664d94019bcfb21b82faaaf5beffab5c0efa9f21afabfb/cchardet-2.4.0-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:70edd66bcfd9f36b5970fc7999263e922948330d27cd5193500f4901a41b6051", size = 654073, upload-time = "2026-10-11T01:13:13.627Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/29/07a427818a4b295e14b6b0db3a2036a99243743c2ac0e004ba2b5b9fa3d7/cchardet-2.4.0-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:6938adee1901dd5ff98cfb5da1b10e81200e8430dd7fa7315c3db9e7aec7d781", size = 646860, upload-time = "2026-10-11T01:13:15.224Z" },
+    { url = "https://files.pythonhosted.org/packages/fd/c5/d00ff49be24712905f79942e814f1f3f649f261aa368940c04375b755839/cchardet-2.4.0-cp314-cp314t-win32.whl", hash = "sha256:06336c80532cc12e1849602ace665f317ada5f19cf44005dcd815434a67c4d64", size = 350861, upload-time = "2026-10-11T01:13:16.826Z" },
+    { url = "https://files.pythonhosted.org/packages/63/2a/69d969f7542a29b51892bb0147e01efc1bcae997c30ada800c62ffc16718/cchardet-2.4.0-cp314-cp314t-win_amd64.whl", hash = "sha256:ff0f867c85a626874b8ffbdf86165fb799a0f70f6a572287fddad7d9c21defd0", size = 353716, upload-time = "2026-10-11T01:13:18.528Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/2a/cc1a42ff9798eb7cc492c4acf6676d6090e8ef512029482f35169ed41cd0/cchardet-2.4.0-cp314-cp314t-win_arm64.whl", hash = "sha256:0e27dd4281638e605674c6caea6f7772fff74efeac9cd86592fbdd083b801ba7", size = 528431, upload-time = "2026-10-11T01:13:19.862Z" },
+]
+
+[[package]]
 name = "certifi"
 version = "2026.7.22"
 source = { registry = "https://pypi.org/simple" }
@@ -1394,6 +1416,7 @@ version = "0.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "bs4" },
+    { name = "cchardet" },
     { name = "dash" },
     { name = "geopandas" },
     { name = "ipykernel" },
@@ -1410,6 +1433,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "bs4", specifier = ">=0.0.2" },
+    { name = "cchardet", specifier = ">=2.4.0" },
     { name = "dash", specifier = ">=4.4.1" },
     { name = "geopandas", specifier = ">=1.2.0" },
     { name = "ipykernel", specifier = ">=7.4.0" },
